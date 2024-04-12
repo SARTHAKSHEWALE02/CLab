@@ -43,6 +43,29 @@ main {
     padding: 20px 0;
     margin-left: 10
 }
+.btn-box a {
+    position: relative;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    background-color: #e0b219;
+    border: 2px solid #080808;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #080808;
+    text-decoration: none;
+    font-weight: 600;
+    overflow: hidden;
+    padding-left: 11px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 11px;
+    transition: .3s;
+    margin-top: 100px;
+    line-height: -20px;
+    margin-left: 32 px;
+    margin-top: 100px;
+  }
 
 footer {
     background-color: #333;
