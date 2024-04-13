@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Lab - Subject 4:Basic Electronics Engineering</title>
+    <link rel="stylesheet" href="stylep1.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Lab</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subjects.html">Subjects</a></li>
+		<li><a href="subjectb.html">Experiments</a></li>
+                <li><a href="segment.html">7-Segments</a></li>
+	    </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>7-Segments</h2>
+        <b>Procedure</b>
+	<ol><u>Part 1:</u>
+		<ul>
+		<li>At first go through the 7 Segment Decoder Circuit on the virtual workspace. Now see that IC 7447 is connected to the LED display package complete with VCC, GND and current-limiting resistor. Verify that the sixteen 7-segment patterns appear for 16 possible combinations of the 4-bit word DCBA while keeping LT (lamp test) and BI (blanking input) inputs high. Note that RBI should be kept high for displaying the 7-segment pattern for 0.</li>
+		<li>Next, applying a low level signal to BI input, verify that all segments are off irrespective of the logic level of any other input.</li>
+		<li>Next, setting RBI (ripple blanking input), D,C, B, and A to low level and setting LT input to high level, verify that all segments go off, and the RBO (ripple blanking output) output goes to a low level.</li>
+		<li>Next, setting BI/RBO input to high and making LT input low, verify that all segments are lit up.</li>
+		</ul>
+	</ol>
+	<ol><u>Part 2:</u>
+		<ul>
+		<li>See how the three instances each of 7447 decoder and common-anode LED display package, are connected, test how in case of a multiple-digit display, the leading zeros can be blanked out.</li>
+		<li>Generate table 1 for showing the status (low/high) of the seven segment o/ps a,b,c,d,e,f and g for different combinations of BCD inputs D,C,B and A, when the controlling input LT,BI/RBO and RBI all are inactive,i.e High.</li>
+		<li>Generate table 2 to show the precedence of controlling inputs LT,BI/RBO and RBI.</li>
+		<li>Write your observations on blanking of leading zeros in case of multiple (here, three) digit display.</li>
+		<li>Note:- RBI of the leftmost decoder DEC1= 0 (a) Select DCBA of Dec1 to be zero(0000) while DCBA of Dec2 (the middle decoder) and Dec3 (the rightmost decoder) to the nonzero ,i.e any combination from 0001 to 1001. (b) Select DCBA=0000 for Dec1 as well as Dec2 while for Dec3, select DCBA to be of any combination between 0001 to 1001. (c) Select DCBA=0000 for all the three decoders Dec1,Dec2 and Dec3. (d) Select DCBA nonzero for all the three decoders Dec 1,dec2 & Dec3.</li>
+		</ul>
+	</ol>
+    </main>
+<footer id="footer">
+    <div id="footer-content">
+      <div id="contact-info">
+        <h3>Contact Us</h3>
+        <p>Amrutvahini College of Engineering</p>
+        <p>Sangamner-422605</p>
+        <p>Phone: 8446835165</p>
+        <p>Email: sarthakshewale40@gmail.com</p>
+      </div>
+      <div id="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="subjects.html">Services</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="index.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="copyright">
+      <p>© 2024 CodeRed All Rights Reserved.</p>
+    </div>
+ </footer>
+</body>
+</html>
+
+
